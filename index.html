@@ -7,6 +7,7 @@
     <title>Instagram</title>
 </head>
 <body>
+  <main>  
     <div class="instagram-wrapper">
         <div class="instagram-phone">
             <img src="./img/instagram-celular.png" alt="celular">
@@ -14,18 +15,32 @@
         <div class="instagram-continue">
             <div class="group">
                 <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-                <div class="profile-photo">
-                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
+                <div class="login">
+                   <form action="">
+                    <label>
+                        <span>Telefone, nome de usuário ou email</span>
+                        <input aria-label="Telefone, nome de usuário ou email" aria-required="true"  type="text" value>
+                    </label>
+                    <label>
+                        <span>Senha</span>
+                        <input aria-label="Senha" aria-required="true"  type="password" value>
+                    </label>
+                    <a href="#" class="instagram-login">Entrar</a>
+                   </form> 
                 </div>
-                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
+                <div class="line-or-line">
+                    <div class="line"></div>
+                    <div class="or"> ou </div>
+                    <div class="line"></div>
+                </div>
+                <a href="#" class="instagram-logout lg1">Entrar com Facebook</a>
+                <a href="#" class="instagram-logout lg2">Esqueceu sua senha?</a>
             </div>
+
             <div class="group">
-                <p class="not-account">Não é sprucegabriela?</p>
-                <p class="not-account">
-                    <span class="link-blue">Alternar contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
+                <p class="not-account">Não tem uma conta?
+               
+                    <span ><a href="#" class="link-blue">Cadastre-se</a></span>
                 </p>
             </div>
             <div class="get-the-app">
@@ -36,6 +51,31 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
+  </main>
+    <footer class="other-information">
+       <div class="links"> 
+        <a href="#" class="informations">Meta</a>
+        <a href="#" class="informations">Sobre</a>
+        <a href="#" class="informations">Blog</a>
+        <a href="#" class="informations">Carreiras</a>
+        <a href="#" class="informations">API</a>
+        <a href="#" class="informations">Privacidade</a>
+        <a href="#" class="informations">Termos</a>
+        <a href="#" class="informations">Principais Contas</a>
+        <a href="#" class="informations">Hastags</a>
+        <a href="#" class="informations">Localizações</a>
+        <a href="#" class="informations">Instagram Lite</a>
+        <a href="#" class="informations">Dança</a>
+        <a href="#" class="informations">Comida e bebida</a>
+        <a href="#" class="informations">Casa e jardim</a>
+        <a href="#" class="informations">Música</a>
+        <a href="#" class="informations">Artes visuais</a>
+       </div>
+       <div class="footer">
+        <div class="languagem">Português (Brasil)</div>
+        <div class="copy">© 2022 Instagram from Meta</div>
+       </div>
+    </footer>   
 </body>
 </html>
